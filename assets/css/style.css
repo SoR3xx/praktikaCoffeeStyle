@@ -316,19 +316,204 @@ h1{
     text-transform: uppercase;
     font-size: 12px;
 }
-/* ---------------- Настройка первой секции, её элементов ---------------- */
+/* ---------------- Настройка третьей секции, её элементов ---------------- */
 .Sec3Div{
     width: 1440px;
+    height: 340px;
+    background-image: url(../images/SectionClear.png);
 }
-/* ---------------- Настройка первой секции, её элементов ---------------- */
+/* ---------------- Настройка четвертой секции, её элементов ---------------- */
 .Sec4Div{
     width: 1440px;
+    height: 962px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 250px 0 250px;
 }
-/* ---------------- Настройка первой секции, её элементов ---------------- */
+.SmallLineDivSec4{
+    width: 377px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.SmallLineDivSec4 p{
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1d1f2e;
+    text-transform: uppercase;
+}
+.SmallLineDivSec4 img{
+    width: 30px;
+    height: 1px;
+}
+.Sec4Div .MainRow div{
+    width: 300px;
+    text-align: left;
+
+}
+.Sec4Div .MainRow{
+    display: flex;
+    justify-content: space-between;
+}
+.Sec4Div .MainRow img{
+    width: 300px;
+    height: 300px;
+}
+.SecondDivInMainDiv{
+    margin: 0 20px;
+}
+.Sec4Div .MainRow h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1f2e;
+    line-height: 32px;
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+.Sec4Div .description{
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(29, 31, 46, 0.7);
+    width: 285px;
+    margin-bottom: 16px;
+}
+.Sec4Div .Date{
+    color: #1d1f2e;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+/* ---------------- Настройка пятой секции, её элементов ---------------- */
 .Sec5Div{
     width: 1440px;
+    height: 327px;
+    background-image: url(../images/LastSecBg.png);
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    align-items: center;
+}
+.LineSmallLastSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 361px;
+    color: #fff;
+}
+.Sec5Div h2{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    margin: 15px 0 25px 0;
+}
+.InputAndButton input{
+    background-color: #1d1f2e;
+    border: 1px solid #2f303e;
+    width: 350px;
+    height: 54px;
+    padding-left: 5px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px; 
+}
+.InputAndButton a{
+    padding: 18px 25px;
+    background-color: white;
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+::-webkit-input-placeholder{
+    padding-left: 13px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 18px; 
 }
 /* ---------------- Настройка подвала сайта, его элементов ---------------- */
 footer{
     width: 1440px;
+    height: 363px;
+    background-color: #fff;
+    padding: 107px 0 0 250px;
+    display: flex;
+}
+.LogoAndTextsFooter{
+    margin-right: 55px;
+}
+footer .Delivering{
+    font-size: 14px;
+    color:rgba(29, 31, 46, 0.7);
+    width: 258px;
+    margin: 22px 0 82px 0;
+}
+footer .Inc{
+    color:rgba(29, 31, 46, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+footer ul{
+    list-style-type: none;
+    margin-right: 80px;
+}
+footer ul li{
+    margin-bottom: 10px;
+    color:#1d1f2e;
+    line-height: 22px;
+    font-size: 13px;
+}
+footer ul li a{
+    color:rgba(29, 31, 46, 0.7);
+}
+#Menu{
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+}
+#FollowUs{
+    color: #1d1f2e;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.ContactUs{
+    color: #1d1f2e;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.WeHappy{
+    color:rgba(29, 31, 46, 0.7);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+footer h2{
+    color:#1d1f2e;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.PoweredBy{
+    color:rgba(29, 31, 46, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 55px;
 }

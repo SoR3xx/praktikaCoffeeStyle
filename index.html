@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section class="Sec1">
-        <!-- Здесь начинается хэдер -->
+    <section class="Sec1" id="Home">
+        <!-- Здесь начинается разметка хэдера -->
         <header>
             <a href="#Home"><img src="assets/images/Logo.svg" alt="error"></a>
             <nav>
@@ -28,9 +28,8 @@
                 </div>
             </a>
         </header>
-        <div class="HeaderFiller">
-
-        </div>
+        <div class="HeaderFiller"></div>
+        <!-- Здесь начинается разметка первой секции после хэдера -->
         <div class="Sec1Div">
             <p class="BestPlaceText">Best place to buy design</p>
             <h1>Coffee Mugs</h1>
@@ -38,7 +37,8 @@
             <a href="#Products">Explore Our Products</a>
         </div>
     </section>
-    <section class="Sec2">
+    <!-- Здесь начинается разметка второй секции -->
+    <section class="Sec2" id="Products">
         <div class="Sec2Div">
             <h2>Even the all-powerful Pointing has no control about the blind texts.</h2>
             <p class="CountryStory">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -146,24 +146,85 @@
             </div>
         </div>
     </section>
-    <section class="Sec3">
+    <!-- Здесь начинается разметка третьей секции -->
+    <section class="Sec3" id="About">
         <div class="Sec3Div">
 
         </div>
     </section>
-    <section class="Sec4">
+    <!-- Здесь начинается разметка четвертой секции -->
+    <section class="Sec4" id="Style">
         <div class="Sec4Div">
-
+            <div class="SmallLineDivSec4">
+                <img src="assets/images/LineSmall.png" alt="error">
+                <p>Behind the mugs, lifestyle stories</p>
+                <img src="assets/images/LineSmall.png" alt="error">
+            </div>
+            <div class="MainRow">
+                <div>
+                    <img src="assets/images/HealthCheck.png" alt="error">
+                    <h3>Health Check: why do I get a headache when I haven’t had my coffee?</h3>
+                    <p class="description">It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p class="Date">October 9, 2018</p>
+                </div>
+                <div class="SecondDivInMainDiv">
+                    <img src="assets/images/KeepsAwake.png" alt="error">
+                    <h3>How long does a cup of coffee keep you awake?</h3>
+                    <p class="description">It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.</p>
+                    <p class="Date">October 9, 2018</p>
+                </div>
+                <div>
+                    <img src="assets/images/RecentResearch.png" alt="error">
+                    <h3>Recent research suggests that heavy coffee drinkers may reap health benefits.</h3>
+                    <p class="description">It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p class="Date">October 9, 2018</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="Sec5">
+    <!-- Здесь начинается разметка пятой секции -->
+    <section class="Sec5" id="Contact">
         <div class="Sec5Div">
-
+            <div class="LineSmallLastSec">
+                <img src="assets/images/LineSmallLastSec.png" alt="error">
+                <p>Sign up and get free coffee bags</p>
+                <img src="assets/images/LineSmallLastSec.png" alt="error">
+            </div>
+            <h2>Coffee Updates</h2>
+            <div class="InputAndButton">
+                <input type="text" placeholder="customer@coffeestyle.io">
+                <a href="#">subscribe</a>
+            </div>
         </div>
     </section>
+    <!-- Здесь начинается разметка подвала сайта -->
     <footer>
-
+        <div class="LogoAndTextsFooter">
+            <a href="#Home"><img src="assets/images/Logo.svg" alt="error"></a>
+            <p class="Delivering">Delivering the best coffee life since 1996. From coffee geeks to the real ones.</p>
+            <p class="Inc">CoffeeStyle Inc. © 1996</p>
+        </div>
+        <ul>
+            <li id="Menu">Menu</li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Products">Our Products</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Style">Styleguide</a></li>
+        </ul>
+        <ul>
+            <li id="FollowUs">Follow Us</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <div>
+            <p class="ContactUs">Contact Us</p>
+            <p class="WeHappy">We're Always Happy to Help</p>
+            <h2>us@coffeestyle.io</h2>
+            <p class="PoweredBy">Powered by Webflow</p>
+        </div>
     </footer>
-
 </body>
 </html>
