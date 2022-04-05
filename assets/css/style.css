@@ -1,0 +1,334 @@
+/* ---------------- Обнуление встроенных отступов ---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------------- Подключение шрифтов ---------------- */
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla-Bold.ttf);
+    font-weight: 700;
+}
+/* ---------------- Разметка хэдера и его элементов, указание заднего фона ---------------- */
+header{
+    width: 1440px;
+    background-color: white;
+    height: 80px;
+    padding: 0 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+header nav a{
+    color: #1d1f2e;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header nav{
+    width: 549px;
+    display: flex;
+    justify-content: space-between;
+}
+.CartDiv{
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CartText{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+}
+.Zero{
+    font-size: 11px;
+    padding: 5px 7px;
+    background-color: #1d1f2e;
+    color: white;
+    border-radius: 9px;
+}
+.HeaderFiller{
+    width: 1440px;
+    height: 80px;
+}
+/* ---------------- Тело сайта, его центрирование и указание использованного шрифта  ---------------- */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+/* ---------------- Настройка первой секции, её элементов ---------------- */
+.Sec1Div{
+    width: 1440px;
+    height: 530px;
+    background-image: url(../images/MainBg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Sec1Div p{
+    color: white;
+}
+.BestPlaceText{
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 47px;
+    color: white;
+    line-height: 60px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.MostVersatile{
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 46px;
+}
+.Sec1Div a{
+    color: #1d1f2e;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 8px 24px;
+    background-color: white;
+}
+/* ---------------- Настройка второй секции, её элементов ---------------- */
+.Sec2Div{
+    width: 1440px;
+    height: 3736px;
+    padding: 120px 250px 130px 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Sec2Div h2{
+    width: 578px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #1d1f2e;
+    margin-bottom: 16px;
+}
+.Sec2Div .CountryStory{
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 16px;
+    line-height: 28px;
+    width: 658px;
+    margin-bottom: 21px;
+}
+.ReadStoryA{
+    color: #a25f4b;
+    margin-bottom: 2px;
+    line-height: 28px;
+    font-size: 15px;
+}
+.SmallLinesDivFirst{
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #1d1f2e;
+    margin-top: 98px;
+}
+.FirstTwoFrames{
+    display: flex;
+    margin-top: 100px;
+}
+.FirstTwoFrames .Frame{
+    height: 650px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+.FirstTwoFrames .Frame1{
+    margin-right: 20px;
+}
+.Frame div{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+.Sec2Div h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+.NotDividedCost{
+    color: rgba(29, 31, 46, 0.7);
+}
+.DividedCost{
+    color:rgba(29, 31, 46, 0.4);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.BrownCost{
+    color: #a25f4b;
+    font-size: 19px;
+    line-height: 32px;
+}
+.SmallLinesDivSecond{
+    display: flex;
+    margin-top: 116px;
+    width: 214px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.SmallLinesDivSecond p{
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1d1f2e;
+    text-transform: uppercase;
+}
+.SmallLinesDivSecond img{
+    width: 30px;
+    height: 1px;
+}
+.FirstRow{
+    display: flex;
+    justify-content: space-between;
+}
+.SecondRow{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+.ThirdRow{
+    display: flex;
+    justify-content: space-between;
+}
+.FirstRow .Frame{
+    display: flex;
+    flex-direction: column;
+}
+.Frame:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+.Frame:hover p{
+    transform: scale(1.1);
+}
+.Frame2{
+    margin: 0 17px;
+}
+.FirstRow .Frame{
+    height: 497px;
+    width: 300px;
+} 
+.SecondRow .Frame{
+    height: 497px;
+    width: 300px;
+}
+.ThirdRow .Frame{
+    height: 497px;
+    width: 300px;
+}
+.Frame:hover h3{
+    transform: scale(1.1);
+}
+.SmallLinesDivThird{
+    width: 444px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.SmallLinesDivThird img{
+    width: 30px;
+    height: 1px;
+}
+.SmallLinesDivThird p{
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1d1f2e;
+    text-transform: uppercase;
+}
+.PremiumOffer{
+    display: flex;
+}
+.PremiumOffer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.PremiumOffer p{
+    width: 298px;
+}
+.PremiumOffer h2{
+    font-size: 36px;
+    line-height: 50px;
+    color: #1d1f2e;
+    font-weight: 400;
+    width: 237px;
+}
+.PremiumOffer .PremiumOfferText{
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    color: #1d1f2e;
+    text-transform: uppercase;
+}
+.TextsPremiumOffer{
+    margin-left: 80px;
+}
+.TwoImages{
+    margin-left: 20px;
+}
+.StartShopping{
+    padding: 9px 24px;
+    background-color: #1d1f2e;
+    color: white;
+    width: 173px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+/* ---------------- Настройка первой секции, её элементов ---------------- */
+.Sec3Div{
+    width: 1440px;
+}
+/* ---------------- Настройка первой секции, её элементов ---------------- */
+.Sec4Div{
+    width: 1440px;
+}
+/* ---------------- Настройка первой секции, её элементов ---------------- */
+.Sec5Div{
+    width: 1440px;
+}
+/* ---------------- Настройка подвала сайта, его элементов ---------------- */
+footer{
+    width: 1440px;
+}
