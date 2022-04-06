@@ -127,6 +127,7 @@ h1{
     align-items: center;
     text-align: center;
 }
+/* ------- Настройка текста до элементов ------- */
 .Sec2Div h2{
     width: 578px;
     font-size: 28px;
@@ -158,6 +159,7 @@ h1{
     color: #1d1f2e;
     margin-top: 98px;
 }
+/* ------- Настройка первых двух контейнеров с товарами ------- */
 .FirstTwoFrames{
     display: flex;
     margin-top: 100px;
@@ -183,6 +185,7 @@ h1{
     margin-top: 35px;
     margin-bottom: 5px;
 }
+/* ------- Настройка цвета цен ------- */
 .NotDividedCost{
     color: rgba(29, 31, 46, 0.7);
 }
@@ -196,6 +199,7 @@ h1{
     font-size: 19px;
     line-height: 32px;
 }
+/* ------- Натройка дополнительного текста между товарами ------- */
 .SmallLinesDivSecond{
     display: flex;
     margin-top: 116px;
@@ -215,15 +219,18 @@ h1{
     width: 30px;
     height: 1px;
 }
+/* ------- Настройка первой строки товаров------- */
 .FirstRow{
     display: flex;
     justify-content: space-between;
 }
+/* ------- Настройка второй строки товаров ------- */
 .SecondRow{
     display: flex;
     justify-content: space-between;
     margin: 60px 0;
 }
+/* ------- Настройка третьей строки товаров ------- */
 .ThirdRow{
     display: flex;
     justify-content: space-between;
@@ -276,6 +283,7 @@ h1{
     color: #1d1f2e;
     text-transform: uppercase;
 }
+/* ------- Настройка самой нижней части секции ------- */
 .PremiumOffer{
     display: flex;
 }
