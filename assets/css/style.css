@@ -389,6 +389,10 @@ h1{
     line-height: 18px;
     text-transform: uppercase;
 }
+.Sec4Div .MainRow div:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
 /* ---------------- Настройка пятой секции, её элементов ---------------- */
 .Sec5Div{
     width: 1440px;
